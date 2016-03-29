@@ -1,7 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.print("openclose");
+  Serial.println("openclose");
   Serial.println("AAAAAAAAAAAAAAAA");
   Serial.println("close");
 }
