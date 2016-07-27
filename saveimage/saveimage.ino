@@ -24,9 +24,9 @@
 File myFile;
 
 void setup() {  
-  Serial.begin(1200);  
+  Serial.begin(9600);  
   SD.begin(4);
-  myFile = SD.open("test7.bmp");
+  myFile = SD.open("1_4.jpg");
   if (myFile) {  
     // read from the file until there's nothing else in it:
     while (myFile.available()) {
